@@ -1,0 +1,33 @@
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.search-bar-container {
+  display: flex;
+}
+
+.search-bar-container input {
+  border: 1px solid #4f617d5f;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.2rem 4rem 0.2rem 1rem;
+}
+
+.search-bar-button {
+  border: 1px solid #4848487e;
+  padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.export-search-bar-container {
+  display: flex;
+  border: 1px solid #484848;
+  color: #484848;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
