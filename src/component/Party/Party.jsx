@@ -1,11 +1,14 @@
 import "./Party.css";
 
-const Party = () => {
+const Party = ({ toggle }) => {
   return (
     <div className="party-container">
       <div className="party-header">
         <div className="party-heading">Party</div>
-        <div className="add-party-button-container">
+        <div
+          className="add-party-button-container"
+          onClick={() => toggle((prev) => !prev)}
+        >
           <div className="add-party-button">
             <svg
               width="16"

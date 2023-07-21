@@ -1,9 +1,10 @@
 import Party from "../Party/Party";
 import Export from "../Export/Export.jsx";
 import Search from "../Search/Search";
+import Table from "../Table/Table.jsx";
 import "./Content.css";
 
-const Content = () => (
+const Content = ({ toggle }) => (
   <div className="content-container">
     <div className="metal-toggle-container">
       <div className="metal-toggle">
@@ -13,10 +14,11 @@ const Content = () => (
       </div>
     </div>
     <div className="party-export-container">
-      <Party />
+      <Party toggle={toggle} />
       <Export />
     </div>
     <Search />
+    <Table />
   </div>
 );
 

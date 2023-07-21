@@ -28,6 +28,10 @@
   color: #4f617d;
 }
 
+.add-party-button-container:hover {
+  cursor: pointer;
+}
+
 .add-party-button-text {
   margin-left: 0.2rem;
 }
