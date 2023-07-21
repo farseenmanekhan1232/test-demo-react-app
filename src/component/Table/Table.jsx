@@ -13,6 +13,7 @@ const Table = () => {
         <div className="table-col">Actions</div>
       </div>
       <div className="table-data-container">
+        {/* //-------------------------------------- */}
         <div className="table-rows-data-container">
           <div className="table-col">1</div>
           <div className="table-col">CHANDU BHAIYA</div>
@@ -55,6 +56,7 @@ const Table = () => {
             </div>
           </div>
         </div>
+        {/* //----------------- */}
       </div>
     </div>
   );

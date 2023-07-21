@@ -6,9 +6,9 @@ const PopUp = ({ toggle }) => {
   const [partyGroup, setPartyGroup] = useState([]);
   const partyGroups = [
     { id: 1, name: "Karigar" },
-    { id: 1, name: "Karigar" },
-    { id: 1, name: "Karigar" },
-    { id: 1, name: "Karigar" },
+    { id: 2, name: "Bullion" },
+    { id: 3, name: "Supplier" },
+    { id: 4, name: "Customer" },
   ];
   return (
     <div className="pop-container">
